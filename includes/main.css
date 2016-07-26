@@ -1,0 +1,703 @@
+/* general */
+a {
+	color:#777;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#e6b800;
+	text-decoration:none;
+}
+
+/* body */
+body {
+	width: 80%;
+    margin-left: 13.4%;
+	background:#ffffff;
+	color:#555;
+	font:0.8em Arial, Helvetica, "bitstream vera sans", sans-serif;
+}
+/* header */
+#header{
+    margin-left: 24%;
+    margin-top: -7.4%;
+    width: 52%;
+    background: #b91817;
+    color: #160812
+	
+}
+#logo{ 
+    width: 17%;
+    margin-top: -4%;
+    position:absolute;
+}
+#header h1 {
+	font-size:300%;
+	letter-spacing:-3px;
+	text-align:left;
+    padding: 1%;
+}
+#header h2 {
+	font-size:200%;
+	letter-spacing:-2px;
+	text-align:left;
+    margin-top: -5%;
+    margin-left: 13%;
+}
+
+/* navigation */
+
+#navigation1{
+    text-decoration: none;
+    font-family: Impact, Charcoal, sans-serif;
+    margin-left: 72.8%;
+    font-size: 137%;
+    padding: 0.5%;
+    color: #160812;
+    width: 13.7%;
+    margin-top: 1.7%;
+    padding-top: 0%;
+}
+
+#navigation1 a{
+    color: #160812;
+    padding-left: 2%;
+}
+
+#navigation2{
+    text-decoration: none;
+    font-family: Impact, Charcoal, sans-serif;
+    margin-left: 22.8%;
+    font-size: 159%;
+    text-align: center;
+    padding: 0.5%;
+    color: #160812;
+    width: 51.7%;
+    margin-top: -2.3%;
+}
+
+#navigation2 a{
+    text-decoration: none;
+    color: #160812;
+    padding-left: 5%;
+}
+
+#navigation2 li{
+	text-decoration: none;
+	display: inline;
+	padding: 0.5%;
+}
+#navigation{
+    width: 85%;
+	text-decoration: none;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 130%;
+    text-align: center;
+    padding: 0.5%;
+    color: #160812;
+    margin-top: 0.7%;
+}
+
+#navigation a{
+    text-decoration: none;
+    color: #160812;
+    padding-left: 5%;
+}
+
+#navigation li{
+	text-decoration: none;
+	display: inline;
+	padding: 0.5%;
+}
+
+#navigation1 li{
+	text-decoration: none;
+	top:5%;
+   	right:5%;	
+   	display:inline;
+}
+
+#navigation1 a{
+	color:#555;
+	text-decoration:none;
+	text-align:center;
+}
+
+/* content */
+#content {
+    height: auto;
+    margin: 0 auto;
+    padding: 0 0 20px;
+    width: 94.3%;
+}
+#content h1 {
+	border-bottom:1px dashed #999;
+	font-size:1.8em;
+	padding:20px 0 0;
+}
+
+/* footer */
+footer{
+    clear: both;
+    background: #b91817;
+    color: #160812;
+    font-weight: 600;
+}
+
+#footer1 {
+    margin: 0 auto;
+    padding: 0.8%;
+    margin-left: 2%;
+    width: 20%;
+}
+
+#footer2 {
+    margin: 0 auto;
+    padding: 2.8%;
+    margin-left: 68%;
+    width: 44%;
+    font-size: 78%;
+    margin-top: -11%;
+}
+/* tables membership*/
+table.tablemember tr th{
+    border: double;
+    background-color: #7DABD1;
+    color: black;
+}
+
+table.tablemember tr td{
+        border: double;
+}
+
+table.tablemember tr td.description{
+    width: 49%;
+}
+
+table.tablemember tr td.price, td.name{
+    width: 10%;
+    text-align: center;
+}
+
+table.tablemember{
+    width: 62%;
+    margin-left: 19%;
+    margin-bottom: 5%;
+}
+
+/* class*/
+a.time{
+    margin-left: 82%;
+    font-size: 120%;
+    color: #7DABD1;
+    font-weight: 700;
+}
+table.tableclass{
+   margin-bottom: 3%;  
+}
+   
+table.tableclass tr th{
+    border: double;
+    background-color: #7DABD1;
+    color: black;
+    margin-bottom:10%;
+}
+
+table.tableclass tr td{
+        border: double;
+}
+
+table.tableclass tr td.description{
+    width: 52%;
+}
+
+table.tableclass tr td.day, td.name, td.name_teacher, td.hour, td.duratio{
+    width: 12%;
+    text-align: center;
+}
+
+table.tableclass{
+    width: 78%;
+    margin-left: 11%;
+}
+
+/* tables tabletime*/
+table.tabletime tr th{
+    border: double;
+    background-color: #7DABD1;
+    color: black;
+}
+
+table.tabletime tr td{
+        border: double;
+}
+
+table.tabletime tr td{
+    width: 52%;
+}
+
+table.tabletime tr td{
+    width: 12%;
+    text-align: center;
+}
+
+table.tabletime{
+    width: 78%;
+    margin-left: 11%;
+}
+
+/*contact_usFORM*//*registerFORM*/
+
+form{
+    width: 33%;
+    margin-left: 31%;
+    padding: 2%;
+    background: #f4f7f8;
+    border-radius: 7%;
+    margin-bottom: 3%;
+}
+
+form input.info, textarea.info{
+    width: 100%;
+}
+
+input.submit {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 115%;
+    color: #160812;
+    background: #b91817;
+    border: outset;
+    border-radius: 7%;
+    margin-left: 40%;
+    margin-top: -9%;
+}
+input.login {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 115%;
+    color: #160812;
+    background: #b91817;
+    border: outset;
+    border-radius: 7%;
+    margin-left: 40%;
+    margin-top: 3%;
+}
+
+p.marginLogin{
+    margin-bottom: 10%;
+}
+
+
+a.goback {
+    margin-left: 78%;
+    font-size: 120%;
+    color: #7DABD1;
+    font-weight: 700;
+}
+
+/*testimonial main page*/
+.testimonial h2{
+    margin-left: 12%;
+    color: #b91817;
+    margin-bottom: -2%;
+}
+
+.testimonial p{
+    margin-left: 14%;
+        margin-top: 3%;
+}
+
+
+/*index*/
+p.indextexts{
+    padding: 0%;
+    font-size: 164%;
+    width: 30.6%;
+    float: left;
+    margin-right: 12%;
+    margin-top: 7%;
+    text-align: justify;
+
+}
+
+#home_1_image{
+    float: left;  
+    margin-bottom: 1%;
+}
+
+div.feature1{
+    float: right;
+    width: 17%;
+    margin-right: 5%;
+    border: outset;
+    padding: 2%;
+    border-radius: 17%;
+    background-color: #FF9900;
+    border-color: #FF9900;
+    color: white;
+    text-align: justify;
+}
+
+div.feature2{
+    float: right;
+    width: 17%;
+    margin-right: 5%;
+    margin-top: 10%;
+    border: outset;
+    padding: 2%;
+    border-radius: 17%;
+    background-color: #FF9900;
+    border-color: #FF9900;
+    color: white;
+    text-align: justify;
+}
+
+/*template*/
+
+#feature1template{
+   width: 43%; 
+   margin-left:10%;
+}
+
+#feature2template{
+    width: 43%;
+    margin-top: 6%;
+   margin-left:10%;
+}
+
+img#image_template_1{
+    margin-bottom: 10%;
+
+    margin-right: -80%;
+    margin-top: -8%;
+    float:right;
+}
+
+img#image_template_2{
+    float:left;
+    margin-top: -9%;
+    margin-bottom: 5%;
+}
+p.text_template_1{
+    margin-left:5%;
+    clear:both;
+}
+
+p.text_template_2{
+    width: 77%;
+    margin-left: 80%;
+    clear:both;
+}
+
+/**/
+
+/*MEMBER*/
+/*HOME*/
+div.welcome{
+    font-family: cursive;
+    font-size: 200%;
+    font-weight: 900;
+    margin-left: 42%;
+        margin-bottom: 21%;
+}
+
+div.welcome h2{
+    color: #b91817;
+    float: left;
+    margin-top: -20%;
+    margin-left: -58%;
+}
+
+div.welcome p{
+   color: #160812;
+    float: left;
+    margin-left: -46%;
+    margin-top: -6%;
+}
+
+img#imagesHomeMember{
+    float: right;
+    margin-top: -34%;
+    width: 38%;
+    margin-right: 38%;
+    margin-bottom: 7%;
+}
+
+/*BOOKING*/
+
+form#formbook{
+     width: 14%;
+    margin-left: 37%;
+    margin-top: 5%;
+
+}
+
+button.booktime {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 95%;
+    color: #160812;
+    background: #b91817;
+    border: outset;
+    border-radius: 7%;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+select.booktime{
+    padding: 1%;
+    margin-left: 9%;
+}
+
+p.marginbooking{
+    margin-bottom: 8%;
+}
+
+/* tables membership*/
+table.bookingTime tr th{
+    border: double;
+    background-color: #7DABD1;
+    color: black;
+}
+
+table.bookingTime tr td{
+    border: double;
+    width: 10%;
+    text-align: center;
+}
+
+table.bookingTime{
+    width: 50%;
+    margin-left: 19%;
+    margin-bottom: 5%;
+    margin-top:5%;
+}
+
+a.bookingTime{
+    color: dodgerblue;
+}
+
+p.bookmessage{
+    margin-bottom: 15%;
+    margin-top: 10%;
+    width: 50%;
+    margin-left: 7%;
+}
+
+img.imagesbook{
+    float: right;
+    margin-top: -21%;
+    margin-right: 19%;
+    margin-bottom: 3%;
+}
+
+/*TESTIMONALS*/
+button.testimonals {
+padding: 5px;
+    font-weight: bold;
+    font-size: 95%;
+    color: #160812;
+    background: #b91817;
+    border: outset;
+    border-radius: 7%;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+p.testimonalMargin{
+    margin-bottom: 25%;
+}
+
+/*PROFILE*/
+button.update_profile {
+padding: 5px;
+    font-weight: bold;
+    font-size: 95%;
+    color: #160812;
+    background: #b91817;
+    border: outset;
+    border-radius: 7%;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+/*ADMIN*/
+img#imagesHomeAdmin{
+    float:right;
+    margin-top: -28%;
+    width: 56%;
+    margin-right: 19%;
+    margin-bottom: 10%;
+}
+
+/*BOOKING*/
+
+p.marginNObooking{
+        margin-bottom: 20%;
+}
+
+p.marginBookingClass{
+    margin-bottom:8%;
+}
+
+table.bookingTime td.delete{
+    border: none;
+    text-align: left;
+    padding-left: 1%;
+}
+
+table.bookingTime td.delete a{
+    color:red;
+}
+
+table.bookingTime td.name{
+    width: 30%;
+}
+
+table.bookingTime td.class{
+    width: 20%;
+}
+
+/*CONTACT US LIST*/
+
+table.contact_us tr th{
+    border: double;
+    background-color: #7DABD1;
+    color: black;
+}
+
+table.contact_us tr td{
+        border: double;
+}
+
+table.contact_us tr td{
+    width: 14%;
+    text-align: center;
+}
+
+table.contact_us{
+    width: 97%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+
+table.contact_us tr td.message{
+    width: 50%;
+    text-align: center;
+}
+
+table.contact_us tr td.email{
+    width: 22%;
+    text-align: center;
+}
+
+table.contact_us td.delete{
+    border: none;
+    text-align: left;
+    padding-left: 1%;
+}
+
+table.contact_us td.delete a{
+    color:red;
+}
+
+/*TESTIMONIAL*/
+
+form.testimonial{
+    width: 100%;
+    margin-left: 0%;
+    padding: 2%;
+    background: none; 
+    border-radius: 7%;
+    margin-bottom: 3%;
+}
+
+table.testimonial tr th{
+    border: double;
+    background-color: #7DABD1;
+    color: black;
+}
+
+table.testimonial tr td{
+    border: double;
+    width: 20%;
+    text-align: center;
+    padding:0.5%;
+}
+
+table.testimonial{
+    width: 97%;
+    margin-left: 1%;
+}
+
+table.testimonial tr td.description{
+    width: 50%;
+    text-align: center;
+   text-align: justify;
+}
+
+table.testimonial td.delete{
+    border: none;
+    text-align: left;
+    padding-left: 1%;
+}
+
+table.testimonial td.delete a{
+    color:red;
+}
+
+button.update_testi {
+padding: 5px;
+    font-weight: bold;
+    font-size: 95%;
+    color: #160812;
+    background: #b91817;
+    border: outset;
+    border-radius: 7%;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+/*MANAGE CLASSES*/
+table.tableclass td.delete, table.tableclass td.edit, table.tableclass td.timetable, table.bookingTime td.edit{
+    border: none;
+    text-align: left;
+    padding-left: 1%;
+}
+
+table.tableclass{
+   margin-top:2%;
+}
+
+table.tableclass td.delete a{
+    color:red;
+}
+
+table.tableclass td.edit a{
+    color:green;
+}
+
+a.new {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 121%;
+    color: #160812;
+    background: #b91817;
+    border: outset;
+    border-color:#b91817;
+    border-radius: 7%;
+    margin-left: 18%;
+}
+
+p.margenclass{
+margin-bottom: 15%;
+}
+
+p.marginclassdelete{
+    margin-bottom:12%;
+}
+
+table.bookingTime td.edit a{
+    color:green;
+}
